@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODO SENSOR"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pon este celular dentro del refri"
+        android:textSize="16sp"
+        android:layout_marginBottom="40dp"
+        android:textColor="#757575"/>
+
+    <TextView
+        android:id="@+id/tvEstadoPuerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CERRADO"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"/>
+
+    <TextView
+        android:id="@+id/tvLux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luz: 0 lx"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
