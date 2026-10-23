@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
 
-        
+
         <activity android:name=".SeleccionActivity" android:exported="false" />
         <activity android:name=".SensorActivity" android:exported="false" />
         <activity android:name=".MonitorActivity" android:exported="false" />
